@@ -1,0 +1,66 @@
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nappula1 {
+    padding: 20px 40px;
+    margin: 10px;
+    font-size: 24px;
+    text-align: center;
+    color: white;
+    background-color: #4388FF;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: transform 1s;
+}
+.nappula1:hover {
+  /* SASSissa käyttäisimme tähän lighten-funktiota! */ 
+    background-color: #90B9FF;
+    transform: rotate(360deg);
+}
+.nappula1:active {
+  /* Täällä voisimme käyttää darken-funktiota, jos kirjoittelisimma SASS/LESS.. */
+    background-color: #366DCC;
+}
+.nappula2 {
+    padding: 20px 40px;
+    margin: 10px;
+    font-size: 24px;
+    text-align: center;
+    color: white;
+    background-color: #4388FF;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.nappula2:hover {
+    background-color: #669eff; 
+}
+.nappula2:active {
+    background-color: #366DCC;
+    color: #bb99ff;
+}
+
+.nappula3 {
+    padding: 20px 40px;
+    margin: 10px;
+    font-size: 24px;
+    text-align: center;
+    color: white;
+    background-color: #4388FF;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 400ms;
+}
+.nappula3:hover {
+    background-color: #438888; 
+    border: solid 3px black;
+}
+.nappula3:active {
+    background-color: red;
+}
